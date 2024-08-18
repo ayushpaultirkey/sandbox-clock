@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self'
+        ;
+        style-src 'self' 'unsafe-inline'
+            https://cdnjs.cloudflare.com/
+        ;
+        img-src 'self'
+        ;"
+    />
+    <title>Clock</title>
+</head>
+<body>
+
+    <div class="w-full h-full flex justify-center">
+        <div class="w-full overflow-hidden">
+            <div class="app h-full relative overflow-hidden"></div>
+        </div>
+    </div>
+
+</body>
+</html>
+<script type="module" src="./script/app.js"></script>
