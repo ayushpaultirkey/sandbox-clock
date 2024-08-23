@@ -1,16 +1,21 @@
 {
     "id": "sandbox-clock",
     "name": "Clock",
-    "author": "",
+    "author": "ayushpaultirkey",
     "description": "",
+    "version": "1.0",
     "start": {
         "main": "/dist/index.html",
         "development": {
-            "enabled": true,
+            "enabled": false,
             "port": 3000
         }
     },
-    "version": "0.0.1",
-    "repository": "",
-    "plugin": []
+    "plugins": [
+        "fs"
+    ],
+    "repository": {
+        "url": "https://github.com/ayushpaultirkey/sandbox-clock",
+        "branch": "master"
+    }
 }
